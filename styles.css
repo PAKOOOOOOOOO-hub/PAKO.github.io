@@ -1,0 +1,224 @@
+body {
+			overflow-x: hidden;
+			width: 100%;
+			height: 1000px;
+		}
+		.top-menu {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.top-menu li {
+		    list-style:none;
+		    display: inline-block;
+		}
+		.top-menu a:hover {
+		    background:#379683;
+		    color: #EDF5E1;
+		}
+		.top-menu li a {
+		    color:#05386B;
+		    font-size: 22px;
+		    padding:5px 10px; 
+		    text-decoration:none;
+		    display:block;
+		    border-radius: 10px;
+		}
+		.top-menu a:active {
+			background: #5CDB95;
+		}
+		.left-menu {
+			padding: 15px;
+			width: 200px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			width: 12%;
+			text-align: center;
+		}
+		.left-menu li {
+		    margin: 12px 0 0 0px;
+		}
+		.left-menu li a {
+			font-size: 22px;
+		    padding:5px 10px; 
+		    color: #05386B;
+		    display:block;
+		    text-decoration:none;
+		}
+		.left-menu a:hover {
+			background:#379683;
+		    color: #EDF5E1;
+		}
+		.left-menu a:active {
+			background: #5CDB95;
+		}
+		.left-menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0; 
+			border-top: 1px solid rgba(0,0,0,.3);
+		}
+		H1 {
+			color: #05386B;
+			text-align: center;
+		}
+		.bodyandleft {
+			display: flex;	
+		}
+		.boddy{
+			width: 87%;
+			text-align: center;
+		}
+	/*==================================================================КАРТОЧКА ТОВАРА*/
+	* {
+    	box-sizing: border-box;
+	}
+	.img1 {
+		width: 140px; 
+		height: 120px;
+		margin-bottom: 20px;
+	}
+	.levo {
+		text-align: left;
+	}
+	.product-item {
+	   width: 300px;
+	   margin: 0 auto;
+	   height: 330px;
+	   padding: 10px 10px 5px 10px;
+	   border: 1px solid #ccc;
+	   background: white;
+	   font-family: "Open Sans";
+	   overflow: hidden;
+	   transition: .4s linear;
+	   display: inline-block;
+	   margin: 5px;
+	}
+	.product-img {
+	   transition: 1s ease-in-out;
+	}
+	.product-img:hover {
+	   transform: scale(1.1);
+	}
+	.product-img img {
+	   display: block;
+	   width: 100%;
+	   height: 200px;
+
+	}
+	.product-list {
+	   margin-top: 15px;
+	}
+	.product-list h3 {
+	   font-weight: 700;
+	   color: #39404B;
+	   margin: 0;
+	   text-transform: uppercase;
+	   font-size: 14px;
+	   line-height: 2;
+
+	}
+	.price {
+	   color: #E34D38;
+	   display: block;
+	   margin-bottom: 12px;
+	   text-align: center;
+	}
+	.actions {
+	   border-top: 1px solid #ccc;
+	   padding-top: 4px;
+	   font-size: 16px;
+	   height: 30px;
+	   line-height: 30px;
+	   margin-bottom: 5px;
+	}
+	.actions:after {
+	   content: "";
+	   display: table;
+	   clear: both;
+	}
+	.add-to-cart {
+	   float: center;
+	}
+	.cart-button {
+	   text-decoration: none;
+	   color: #8C877C;
+	   padding-right: 20px;
+	   padding-left: 20px;
+	   border-right: 1px solid #ddd;
+	   border-left: 1px solid #ddd;
+	   transition: .4s linear;
+	}
+	.cart-button:before {
+	   margin-right: 10px;
+	}
+	.add-to-cart:hover .cart-button {
+	   color: #E34D38;
+	}
+	/**================================================================КОНЕЦ КАРТОЧКN ТОВАРА*/
+	/*------------------------------------------------ПОДВАЛ-----------------------*/
+	.footer{
+	    position: relative;/*относительное позиционирование*/
+	    width: 100%;/*на всю ширину*/
+	    padding: 20px 50px;/*поля для контента*/
+	    background: #379683;/*цвет футера*/
+	    display: flex;
+	    justify-content: center;/*в центре по горизонтали*/
+	    align-items: center;/*в центре по вертикали*/
+	    flex-direction: column;
+	    margin-top: 100px;/*отступ сверху*/
+	}
+	.social,.menu{
+	    position: relative;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 10px 0;
+	    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+	}
+	.social li, .menu li{
+    	list-style: none;/*удалить черные маркеры*/
+	}
+	.social li a {
+	    font-size: 2em;/*размер иконок*/
+	    color: #fff;/*цвет иконок*/
+	    margin: 0 10px;
+	    display: inline-block;/*отображать как строчно-блочный элемент*/
+	    transition: 0.5s;/*плавный переход*/
+	}
+	.menu li a {
+	    font-size: 1.2em;/*размер ссылок меню*/
+	    color: #fff;/*цвет ссылок меню*/
+	    opacity: 0.75;/*значение прозрачности*/
+	    margin: 0 15px;
+	    text-decoration: none;/*ссылка без подчеркивания*/
+	    display: inline-block;
+	}
+	.menu li a:hover {
+    	opacity: 1;
+	}
+	/*--------------------------------------КОНЕЦ ПОДВАЛА--------------------------*/
+	.REDTEXT{
+    color: #379683;
+  }
+  .magazini {
+    text-align: left;
+  }
+  .magazini p {
+    line-height: 50px;
+  }
+  H3 {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  p {
+    text-align: center;
+  }
+  .dos {
+      padding-left: 40px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      list-style: circle;
+  }
+  H2 {
+  	text-align: center;
+  }
